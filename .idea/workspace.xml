@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="cd456f95-70a6-4715-9187-1496d4844a21" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/MainSecurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/MainSecurity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/emailpassword/controller/EmailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/emailpassword/controller/EmailController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/repository/UsuarioRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/repository/UsuarioRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/service/UsuarioService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/service/UsuarioService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorial/crud/emailpassword/controller/EmailController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorial/crud/emailpassword/controller/EmailController.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tutorial/crud/emailpassword/controller/EmailController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+            <state relative-caret-position="432">
+              <caret line="72" column="88" selection-start-line="72" selection-start-column="88" selection-end-line="72" selection-end-column="88" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -29,10 +30,49 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/service/UsuarioService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="551">
+              <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/controller/AuthController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="121">
+              <caret line="34" column="36" lean-forward="true" selection-start-line="33" selection-start-column="3" selection-end-line="34" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/dto/LoginUsuario.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/dto/NuevoUsuario.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tutorial/crud/emailpassword/dto/EmailValuesDTO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="13" column="32" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="32" />
+            <state relative-caret-position="174">
+              <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
               <folding>
                 <element signature="e#668#669#0" expanded="true" />
                 <element signature="e#708#709#0" expanded="true" />
@@ -50,8 +90,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-end-line="22" selection-end-column="20" />
+            <state relative-caret-position="494">
+              <caret line="28" column="52" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -59,7 +99,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tutorial/crud/emailpassword/service/EmailService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
+            <state relative-caret-position="460">
               <caret line="35" column="62" selection-start-line="35" selection-start-column="62" selection-end-line="35" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -89,17 +129,18 @@
         <option value="$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/jwt/JwtProvider.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tutorial/crud/swagger/SwaggerConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tutorial/crud/controller/ProductoController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/service/UsuarioService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/service/UserDetailsServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/entity/Usuario.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/repository/UsuarioRepository.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/email-template.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/tutorial/crud/emailpassword/dto/EmailValuesDTO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tutorial/crud/emailpassword/config/ThymeleafTemplateConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tutorial/crud/emailpassword/service/EmailService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/MainSecurity.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tutorial/crud/emailpassword/dto/ChangePasswordDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/repository/UsuarioRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/service/UsuarioService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tutorial/crud/emailpassword/controller/EmailController.java" />
       </list>
     </option>
@@ -118,6 +159,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -184,7 +227,10 @@
               <item name="crudBACK" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="crud" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="crud" type="b2602c69:ProjectViewProjectNode" />
@@ -192,19 +238,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1627851162570" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1627856392739" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -255,7 +298,7 @@
     <frame x="-4" y="-4" width="1928" height="1088" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16702355" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17130621" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -264,14 +307,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32979852" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32873806" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32979852" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32873806" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -299,16 +342,6 @@
           <folding>
             <element signature="e#212#213#0" expanded="true" />
             <element signature="e#246#247#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/controller/AuthController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="83" column="17" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -345,56 +378,10 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tutorial/crud/mailpassword/dto/EmailValuesDTO.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tutorial/crud/mailpassword/controller/EmailController.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tutorial/crud/mailpassword/service/EmailService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/repository/UsuarioRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/service/UserDetailsServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="18" column="80" selection-start-line="18" selection-start-column="80" selection-end-line="18" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/entity/Usuario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1888">
-          <caret line="78" column="38" selection-start-line="78" selection-start-column="38" selection-end-line="78" selection-end-column="38" />
-          <folding>
-            <element signature="e#1038#1039#0" expanded="true" />
-            <element signature="e#1063#1064#0" expanded="true" />
-            <element signature="e#1096#1097#0" expanded="true" />
-            <element signature="e#1124#1125#0" expanded="true" />
-            <element signature="e#1157#1158#0" expanded="true" />
-            <element signature="e#1186#1187#0" expanded="true" />
-            <element signature="e#1230#1231#0" expanded="true" />
-            <element signature="e#1266#1267#0" expanded="true" />
-            <element signature="e#1306#1307#0" expanded="true" />
-            <element signature="e#1342#1343#0" expanded="true" />
-            <element signature="e#1400#1401#0" expanded="true" />
-            <element signature="e#1450#1451#0" expanded="true" />
-            <element signature="e#1482#1483#0" expanded="true" />
-            <element signature="e#1510#1511#0" expanded="true" />
-            <element signature="e#1552#1553#0" expanded="true" />
-            <element signature="e#1586#1587#0" expanded="true" />
-            <element signature="e#1621#1622#0" expanded="true" />
-            <element signature="e#1652#1653#0" expanded="true" />
-            <element signature="e#1700#1701#0" expanded="true" />
-            <element signature="e#1740#1741#0" expanded="true" />
-            <element signature="e#1850#1851#0" expanded="true" />
-            <element signature="e#1908#1909#0" expanded="true" />
-            <element signature="e#1958#1959#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/service/UsuarioService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="22" column="90" selection-start-line="22" selection-start-column="90" selection-end-line="22" selection-end-column="90" />
         </state>
       </provider>
     </entry>
@@ -412,9 +399,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tutorial/crud/email-password/ThymeleafTemplateConfig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tutorial/crud/email-password/ThymeleafTemplateConfig" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tutorial/crud/emailpassword/config/ThymeleafTemplateConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -434,7 +419,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tutorial/crud/emailpassword/service/EmailService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
+        <state relative-caret-position="460">
           <caret line="35" column="62" selection-start-line="35" selection-start-column="62" selection-end-line="35" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -442,17 +427,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-end-line="22" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tutorial/crud/emailpassword/dto/EmailValuesDTO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="13" column="32" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="32" />
+        <state relative-caret-position="174">
+          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
           <folding>
             <element signature="e#668#669#0" expanded="true" />
             <element signature="e#708#709#0" expanded="true" />
@@ -466,10 +444,91 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/dto/NuevoUsuario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/dto/LoginUsuario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="28" column="52" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tutorial/crud/emailpassword/dto/ChangePasswordDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#514#515#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#644#645#0" expanded="true" />
+            <element signature="e#682#683#0" expanded="true" />
+            <element signature="e#744#745#0" expanded="true" />
+            <element signature="e#798#799#0" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#874#875#0" expanded="true" />
+            <element signature="e#932#933#0" expanded="true" />
+            <element signature="e#982#983#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/entity/Usuario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="21" column="32" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="32" />
+          <folding>
+            <element signature="e#1586#1587#0" expanded="true" />
+            <element signature="e#1620#1621#0" expanded="true" />
+            <element signature="e#1814#1815#0" expanded="true" />
+            <element signature="e#1850#1851#0" expanded="true" />
+            <element signature="e#1908#1909#0" expanded="true" />
+            <element signature="e#1958#1959#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/repository/UsuarioRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="62" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/controller/AuthController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="34" column="36" lean-forward="true" selection-start-line="33" selection-start-column="3" selection-end-line="34" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/service/UsuarioService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tutorial/crud/emailpassword/controller/EmailController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+        <state relative-caret-position="432">
+          <caret line="72" column="88" selection-start-line="72" selection-start-column="88" selection-end-line="72" selection-end-column="88" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
