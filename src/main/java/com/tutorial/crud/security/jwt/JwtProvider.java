@@ -28,7 +28,7 @@ public class JwtProvider {
     @Value("${jwt.expiration}")
     private int expiration;
 
-    public String generateToken(Authentication authentication){
+    public String generateToken(Authentication authentication) {
         UsuarioPrincipal usuarioPrincipal = (UsuarioPrincipal) authentication.getPrincipal();
         List<String> roles = usuarioPrincipal.getAuthorities().stream().map(GrantedAuthority::getAuthority).collect(Collectors.toList());
         return Jwts.builder()
@@ -40,40 +40,46 @@ public class JwtProvider {
                 .compact();
     }
 
-    public String getNombreUsuarioFromToken(String token){
+    public String getNombreUsuarioFromToken(String token) {
         return Jwts.parser().setSigningKey(secret.getBytes()).parseClaimsJws(token).getBody().getSubject();
     }
 
-    public boolean validateToken(String token){
+    public boolean validateToken(String token) {
         try {
             Jwts.parser().setSigningKey(secret.getBytes()).parseClaimsJws(token);
             return true;
-        }catch (MalformedJwtException e){
+        } catch (MalformedJwtException e) {
             logger.error("token mal formado");
-        }catch (UnsupportedJwtException e){
+        } catch (UnsupportedJwtException e) {
             logger.error("token no soportado");
-        }catch (ExpiredJwtException e){
+        } catch (ExpiredJwtException e) {
             logger.error("token expirado");
-        }catch (IllegalArgumentException e){
+        } catch (IllegalArgumentException e) {
             logger.error("token vacío");
-        }catch (SignatureException e){
+        } catch (SignatureException e) {
             logger.error("fail en la firma");
         }
         return false;
     }
 
     public String refreshToken(JwtDto jwtDto) throws ParseException {
-        JWT jwt = JWTParser.parse(jwtDto.getToken());
-        JWTClaimsSet claims = jwt.getJWTClaimsSet();
-        String nombreUsuario = claims.getSubject();
-        List<String> roles = (List<String>)claims.getClaim("roles");
+        try {
+            Jwts.parser().setSigningKey(secret.getBytes()).parseClaimsJws(jwtDto.getToken());
+        } catch (ExpiredJwtException e) {
+            JWT jwt = JWTParser.parse(jwtDto.getToken());
+            JWTClaimsSet claims = jwt.getJWTClaimsSet();
+            String nombreUsuario = claims.getSubject();
+            List<String> roles = (List<String>) claims.getClaim("roles");
 
-        return Jwts.builder()
-                .setSubject(nombreUsuario)
-                .claim("roles", roles)
-                .setIssuedAt(new Date())
-                .setExpiration(new Date(new Date().getTime() + expiration))
-                .signWith(SignatureAlgorithm.HS512, secret.getBytes())
-                .compact();
+            return Jwts.builder()
+                    .setSubject(nombreUsuario)
+                    .claim("roles", roles)
+                    .setIssuedAt(new Date())
+                    .setExpiration(new Date(new Date().getTime() + expiration))
+                    .signWith(SignatureAlgorithm.HS512, secret.getBytes())
+                    .compact();
+        }
+        return null;
     }
+
 }
