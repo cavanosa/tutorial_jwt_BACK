@@ -13,6 +13,10 @@ public class Usuario {
     @NotNull
     private String nombre;
     @NotNull
+    private String apellido_pat;
+    @NotNull
+    private String apellido_mat;
+    @NotNull
     @Column(unique = true)
     private String nombreUsuario;
     @NotNull
@@ -28,14 +32,19 @@ public class Usuario {
     public Usuario() {
     }
 
-    public Usuario(@NotNull String nombre, @NotNull String nombreUsuario, @NotNull String email, @NotNull String password) {
+    public Usuario(@NotNull String nombre,@NotNull String apellido_pat,@NotNull String apellido_mat, @NotNull String nombreUsuario, @NotNull String email, @NotNull String password) {
         this.nombre = nombre;
+        
+        this.apellido_pat = apellido_pat;
+        this.apellido_mat = apellido_mat;
         this.nombreUsuario = nombreUsuario;
         this.email = email;
         this.password = password;
     }
 
-    public int getId() {
+  
+
+	public int getId() {
         return id;
     }
 
@@ -82,4 +91,20 @@ public class Usuario {
     public void setRoles(Set<Rol> roles) {
         this.roles = roles;
     }
+
+	public String getApellido_pat() {
+		return apellido_pat;
+	}
+
+	public void setApellido_pat(String apellido_pat) {
+		this.apellido_pat = apellido_pat;
+	}
+
+	public String getApellido_mat() {
+		return apellido_mat;
+	}
+
+	public void setApellido_mat(String apellido_mat) {
+		this.apellido_mat = apellido_mat;
+	}
 }
