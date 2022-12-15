@@ -81,7 +81,7 @@ public class OrganizacionesExportarEXCEL {
             Row fila = hoja.createRow(nueroFilas++);
 
             Cell celda = fila.createCell(0);
-            celda.setCellValue(lib.getId());
+            
             hoja.autoSizeColumn(0);
             celda.setCellStyle(estilo);
 
@@ -96,7 +96,7 @@ public class OrganizacionesExportarEXCEL {
             celda.setCellStyle(estilo);
 
             celda = fila.createCell(3);
-            celda.setCellValue(lib.getRepresentante());
+            
             hoja.autoSizeColumn(3);
             celda.setCellStyle(estilo);
             

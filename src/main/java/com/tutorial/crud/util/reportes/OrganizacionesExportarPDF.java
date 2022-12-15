@@ -4,6 +4,7 @@ import com.lowagie.text.Document;
 import com.lowagie.text.DocumentException;
 import com.lowagie.text.Font;
 import com.lowagie.text.FontFactory;
+import com.lowagie.text.Image;
 import com.lowagie.text.PageSize;
 import com.lowagie.text.Paragraph;
 import com.lowagie.text.Phrase;
@@ -14,12 +15,14 @@ import java.awt.Color;
 import java.io.IOException;
 import java.util.List;
 import javax.servlet.http.HttpServletResponse;
-public class OrganizacionesExportarPDF {
 
+import org.openxmlformats.schemas.wordprocessingml.x2006.main.CTTblWidth;
+public class OrganizacionesExportarPDF {
 
     private List<Organizaciones> listaorganizaciones;
 
     public OrganizacionesExportarPDF(List<Organizaciones> listaorganizaciones) {
+    	
         super();
         this.listaorganizaciones = listaorganizaciones;
     }
@@ -36,7 +39,7 @@ public class OrganizacionesExportarPDF {
         celda.setPhrase(new Phrase("ID", fuente));
         tabla.addCell(celda);
 
-        celda.setPhrase(new Phrase("Nombre ORG", fuente));
+        celda.setPhrase(new Phrase("Nombre Organizacion", fuente));
         tabla.addCell(celda);
         celda.setPhrase(new Phrase("Tipo", fuente));
         tabla.addCell(celda);
@@ -52,10 +55,11 @@ public class OrganizacionesExportarPDF {
 
     private void escribirDatosDeLaTabla(PdfPTable tabla) {
         for (Organizaciones org : listaorganizaciones) {
-            tabla.addCell(String.valueOf(org.getId()));
+        	tabla.addCell(String.valueOf(org.getIdorg()));
+        	
             tabla.addCell(org.getNombreorg());
              tabla.addCell(org.getTipo());
-             tabla.addCell(org.getRepresentante());
+             tabla.addCell(String.valueOf(org.getUsuario().getNombre()));
              tabla.addCell(org.getNivel());
              tabla.addCell(org.getInicio());
              tabla.addCell(org.getFin());
@@ -68,7 +72,7 @@ public class OrganizacionesExportarPDF {
         PdfWriter.getInstance(documento, response.getOutputStream());
 
         documento.open();
-
+       
         Font fuente = FontFactory.getFont(FontFactory.HELVETICA_BOLD);
         fuente.setColor(Color.RED);
         fuente.setSize(18);
@@ -80,7 +84,7 @@ public class OrganizacionesExportarPDF {
         PdfPTable tabla = new PdfPTable(7);
         tabla.setWidthPercentage(100);
         tabla.setSpacingBefore(15);
-        tabla.setWidths(new float[]{1f, 2.3f, 1,1f,1f,1f,1f});
+        tabla.setWidths(new float[]{0.5f, 1.7f, 0.9f,1f,0.7f,1f,1f});
         tabla.setWidthPercentage(100);
 
         escribirCabeceraDeLaTabla(tabla);
