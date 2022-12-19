@@ -47,9 +47,9 @@ public class OrganizacionesExportarEXCEL {
         celda.setCellValue("Tipo");
         celda.setCellStyle(estilo);
         
-        celda = fila.createCell(3);
-        celda.setCellValue("Representante");
-        celda.setCellStyle(estilo);
+//        celda = fila.createCell(3);
+//        celda.setCellValue("Representante");
+//        celda.setCellStyle(estilo);
         
         celda = fila.createCell(4);
         celda.setCellValue("Zona");
@@ -60,12 +60,12 @@ public class OrganizacionesExportarEXCEL {
         celda.setCellStyle(estilo);
         
         celda = fila.createCell(6);
-        celda.setCellValue("Inicio");
+        celda.setCellValue("Estado");
         celda.setCellStyle(estilo);
         
-        celda = fila.createCell(7);
-        celda.setCellValue("Fin");
-        celda.setCellStyle(estilo);
+//        celda = fila.createCell(7);
+//        celda.setCellValue("Fin");
+//        celda.setCellStyle(estilo);
 
     }
 
@@ -86,12 +86,12 @@ public class OrganizacionesExportarEXCEL {
             celda.setCellStyle(estilo);
 
             celda = fila.createCell(1);
-            celda.setCellValue(lib.getNombreorg());
+            celda.setCellValue(lib.getNombre_os());
             hoja.autoSizeColumn(1);
             celda.setCellStyle(estilo);
 
             celda = fila.createCell(2);
-            celda.setCellValue(lib.getTipo());
+            celda.setCellValue(lib.getParametros_tipo_os().getNombre());
             hoja.autoSizeColumn(2);
             celda.setCellStyle(estilo);
 
@@ -101,24 +101,24 @@ public class OrganizacionesExportarEXCEL {
             celda.setCellStyle(estilo);
             
             celda = fila.createCell(4);
-            celda.setCellValue(lib.getZona());
+            celda.setCellValue(lib.getParametros_zona().getNombre());
             hoja.autoSizeColumn(4);
             celda.setCellStyle(estilo);
             
             celda = fila.createCell(5);
-            celda.setCellValue(lib.getNivel());
+            celda.setCellValue(lib.getParametros_nivel().getNombre());
             hoja.autoSizeColumn(5);
             celda.setCellStyle(estilo);
 
             celda = fila.createCell(6);
-            celda.setCellValue(lib.getInicio());
+            celda.setCellValue(lib.getEstado());
             hoja.autoSizeColumn(6);
             celda.setCellStyle(estilo);
             
-            celda = fila.createCell(7);
-            celda.setCellValue(lib.getFin());
-            hoja.autoSizeColumn(7);
-            celda.setCellStyle(estilo);
+//            celda = fila.createCell(7);
+//            celda.setCellValue(lib.getFin());
+//            hoja.autoSizeColumn(7);
+//            celda.setCellStyle(estilo);
 
         }
     }

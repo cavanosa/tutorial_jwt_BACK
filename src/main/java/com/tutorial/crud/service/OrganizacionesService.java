@@ -27,9 +27,15 @@ public class OrganizacionesService implements IOrganizaciones{
 		organizacionesRepository.deleteById(id);
 		
 	}
+
 	@Override
 	public Organizaciones save(Organizaciones org) {
 		return organizacionesRepository.save(org);
 	}
+	public List<Organizaciones> getByEstado(String estado){
+		return organizacionesRepository.findByEstado(estado);
+	}
+
+
 
 }

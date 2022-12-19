@@ -43,26 +43,25 @@ public class OrganizacionesExportarPDF {
         tabla.addCell(celda);
         celda.setPhrase(new Phrase("Tipo", fuente));
         tabla.addCell(celda);
-        celda.setPhrase(new Phrase("Representante", fuente));
-        tabla.addCell(celda);
+//        celda.setPhrase(new Phrase("Representante", fuente));
+//        tabla.addCell(celda);
         celda.setPhrase(new Phrase("Nivel", fuente));
         tabla.addCell(celda);
-        celda.setPhrase(new Phrase("Inicio", fuente));
+        celda.setPhrase(new Phrase("Zona", fuente));
         tabla.addCell(celda);
-        celda.setPhrase(new Phrase("Fin", fuente));
-        tabla.addCell(celda);
+//        celda.setPhrase(new Phrase("Fin", fuente));
+//        tabla.addCell(celda);
     }
 
     private void escribirDatosDeLaTabla(PdfPTable tabla) {
         for (Organizaciones org : listaorganizaciones) {
-        	tabla.addCell(String.valueOf(org.getIdorg()));
+        	tabla.addCell(String.valueOf(org.getIdos()));
         	
-            tabla.addCell(org.getNombreorg());
-             tabla.addCell(org.getTipo());
-             tabla.addCell(String.valueOf(org.getUsuario().getNombre()));
-             tabla.addCell(org.getNivel());
-             tabla.addCell(org.getInicio());
-             tabla.addCell(org.getFin());
+            tabla.addCell(org.getNombre_os());
+             tabla.addCell(org.getParametros_tipo_os().getNombre());
+//             tabla.addCell(String.valueOf(org.getUsuario().));
+             tabla.addCell(org.getParametros_nivel().getNombre());
+            tabla.addCell(org.getParametros_zona().getNombre());
       
         }
     }
@@ -81,10 +80,10 @@ public class OrganizacionesExportarPDF {
         titulo.setAlignment(Paragraph.ALIGN_CENTER);
         documento.add(titulo);
 
-        PdfPTable tabla = new PdfPTable(7);
+        PdfPTable tabla = new PdfPTable(5);
         tabla.setWidthPercentage(100);
         tabla.setSpacingBefore(15);
-        tabla.setWidths(new float[]{0.5f, 1.7f, 0.9f,1f,0.7f,1f,1f});
+        tabla.setWidths(new float[]{0.5f, 1.7f, 0.9f,1f,0.7f});
         tabla.setWidthPercentage(100);
 
         escribirCabeceraDeLaTabla(tabla);

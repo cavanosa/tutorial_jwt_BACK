@@ -1,13 +1,11 @@
 package com.tutorial.crud.entity;
 
 import java.io.Serializable;
+import java.util.List;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -25,8 +23,11 @@ public class Requisito implements Serializable {
 	private static final long serialVersionUID = 1L;
 	@Id
     @GeneratedValue(strategy=GenerationType.IDENTITY)
-    private int id;
+    private int idrequisito;
 	private String nombre_requisito;
 	private int estado_req;
-	private String formato;	
+	private String formato;
+	@JsonIgnore
+	@OneToMany(mappedBy="requisito")
+	private List<Registro> registro;
 }
