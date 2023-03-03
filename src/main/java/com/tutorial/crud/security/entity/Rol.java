@@ -1,16 +1,16 @@
 package com.tutorial.crud.security.entity;
 
 import com.tutorial.crud.security.enums.RolNombre;
+import jakarta.persistence.*;
+import jakarta.validation.constraints.NotNull;
 
-import javax.persistence.*;
-import javax.validation.constraints.NotNull;
 
 @Entity
 public class Rol {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    @NotNull
+    @Column(nullable = false)
     @Enumerated(EnumType.STRING)
     private RolNombre rolNombre;
 

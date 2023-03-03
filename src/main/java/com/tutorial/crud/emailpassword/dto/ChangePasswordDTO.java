@@ -1,6 +1,7 @@
 package com.tutorial.crud.emailpassword.dto;
 
-import javax.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotBlank;
+
 
 public class ChangePasswordDTO {
 

@@ -1,120 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="cd456f95-70a6-4715-9187-1496d4844a21" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/controller/ProductoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/controller/ProductoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/dto/ProductoDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/dto/ProductoDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/emailpassword/controller/EmailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/emailpassword/controller/EmailController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/emailpassword/dto/ChangePasswordDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/emailpassword/dto/ChangePasswordDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/emailpassword/service/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/emailpassword/service/EmailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/entity/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/entity/Producto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/MainSecurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/MainSecurity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/dto/LoginUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/dto/LoginUsuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/dto/NuevoUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/dto/NuevoUsuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/entity/Rol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/entity/Rol.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/entity/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/entity/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/jwt/JwtEntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/jwt/JwtEntryPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/jwt/JwtProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/jwt/JwtProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/jwt/JwtTokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/jwt/JwtTokenFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/service/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/service/UserDetailsServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/crud.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorial/crud/CrudApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorial/crud/CrudApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorial/crud/controller/ProductoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorial/crud/controller/ProductoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorial/crud/dto/Mensaje.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorial/crud/dto/Mensaje.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorial/crud/dto/ProductoDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorial/crud/dto/ProductoDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorial/crud/emailpassword/config/ThymeleafTemplateConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorial/crud/emailpassword/config/ThymeleafTemplateConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorial/crud/emailpassword/controller/EmailController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorial/crud/emailpassword/controller/EmailController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorial/crud/emailpassword/dto/ChangePasswordDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorial/crud/emailpassword/dto/ChangePasswordDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorial/crud/emailpassword/dto/EmailValuesDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorial/crud/emailpassword/dto/EmailValuesDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorial/crud/emailpassword/service/EmailService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorial/crud/emailpassword/service/EmailService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorial/crud/entity/Producto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorial/crud/entity/Producto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorial/crud/repository/ProductoRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorial/crud/repository/ProductoRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorial/crud/security/MainSecurity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorial/crud/security/MainSecurity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorial/crud/security/controller/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorial/crud/security/controller/AuthController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorial/crud/security/dto/JwtDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorial/crud/security/dto/JwtDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorial/crud/security/dto/LoginUsuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorial/crud/security/dto/LoginUsuario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorial/crud/security/dto/NuevoUsuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorial/crud/security/dto/NuevoUsuario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorial/crud/security/entity/Rol.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorial/crud/security/entity/Rol.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorial/crud/security/entity/Usuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorial/crud/security/entity/Usuario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorial/crud/security/entity/UsuarioPrincipal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorial/crud/security/entity/UsuarioPrincipal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorial/crud/security/enums/RolNombre.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorial/crud/security/enums/RolNombre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorial/crud/security/jwt/JwtEntryPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorial/crud/security/jwt/JwtEntryPoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorial/crud/security/jwt/JwtProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorial/crud/security/jwt/JwtProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorial/crud/security/jwt/JwtTokenFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorial/crud/security/jwt/JwtTokenFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorial/crud/security/repository/RolRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorial/crud/security/repository/RolRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorial/crud/security/repository/UsuarioRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorial/crud/security/repository/UsuarioRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorial/crud/security/service/RolService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorial/crud/security/service/RolService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorial/crud/security/service/UserDetailsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorial/crud/security/service/UserDetailsServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorial/crud/security/service/UsuarioService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorial/crud/security/service/UsuarioService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorial/crud/service/ProductoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorial/crud/service/ProductoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorial/crud/swagger/SwaggerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorial/crud/swagger/SwaggerConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorial/crud/util/CreateRoles.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorial/crud/util/CreateRoles.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/tutorial/crud/CrudApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/tutorial/crud/CrudApplicationTests.class" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tutorial/crud/emailpassword/controller/EmailController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="51" column="44" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tutorial/crud/emailpassword/dto/ChangePasswordDTO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="30" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/service/UsuarioService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/controller/AuthController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="34" column="36" selection-start-line="33" selection-start-column="3" selection-end-line="34" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/dto/LoginUsuario.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/dto/NuevoUsuario.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tutorial/crud/emailpassword/dto/EmailValuesDTO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="27" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="27" />
-              <folding>
-                <element signature="e#668#669#0" expanded="true" />
-                <element signature="e#708#709#0" expanded="true" />
-                <element signature="e#1112#1113#0" expanded="true" />
-                <element signature="e#1152#1153#0" expanded="true" />
-                <element signature="e#1192#1193#0" expanded="true" />
-                <element signature="e#1228#1229#0" expanded="true" />
-                <element signature="e#1286#1287#0" expanded="true" />
-                <element signature="e#1336#1337#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tutorial/crud/emailpassword/service/EmailService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="35" column="62" selection-start-line="35" selection-start-column="62" selection-end-line="35" selection-end-column="62" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -125,6 +77,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="mail-password" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -254,23 +211,16 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1627856552072" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.12091899" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunManager">
     <configuration name="CrudApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.tutorial.crud.CrudApplication" />
-      <module name="crud" />
+      <module name="crudBACK" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.tutorial.crud.*" />
@@ -283,6 +233,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CrudApplication" />
         <item itemvalue="Application.CrudApplication" />
       </list>
     </recent_temporary>

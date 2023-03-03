@@ -1,7 +1,8 @@
 package com.tutorial.crud.security.entity;
 
-import javax.persistence.*;
-import javax.validation.constraints.NotNull;
+import jakarta.persistence.*;
+import jakarta.validation.constraints.NotNull;
+
 import java.util.HashSet;
 import java.util.Set;
 
