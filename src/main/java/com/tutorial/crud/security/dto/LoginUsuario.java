@@ -4,9 +4,9 @@ import jakarta.validation.constraints.NotBlank;
 
 
 public class LoginUsuario {
-    @NotBlank
+    @NotBlank(message = "nombre de usuario/email obligatorio")
     private String nombreUsuario;
-    @NotBlank
+    @NotBlank(message = "contraseña obligatoria")
     private String password;
 
     public String getNombreUsuario() {

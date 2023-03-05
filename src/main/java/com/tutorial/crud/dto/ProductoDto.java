@@ -5,9 +5,9 @@ import jakarta.validation.constraints.NotBlank;
 
 public class ProductoDto {
 
-    @NotBlank
+    @NotBlank(message = "el nombre de producto es obligatorio")
     private String nombre;
-    @Min(0)
+    @Min(value = 0, message = "el precio es obligatorio")
     private Float precio;
 
     public ProductoDto() {

@@ -7,11 +7,12 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class NuevoUsuario {
-    @NotBlank
+    @NotBlank(message = "nombre obligatorio")
     private String nombre;
-    @NotBlank
+    @NotBlank(message = "nombre de usuario obligatorio")
     private String nombreUsuario;
-    @Email
+    @Email(message = "dirección de email no válida")
+    @NotBlank(message = "email obligatorio")
     private String email;
     @NotBlank
     private String password;

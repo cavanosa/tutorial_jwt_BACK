@@ -5,11 +5,11 @@ import jakarta.validation.constraints.NotBlank;
 
 public class ChangePasswordDTO {
 
-    @NotBlank
+    @NotBlank(message = "contraseña obligatoria")
     private String password;
-    @NotBlank
+    @NotBlank(message = "repetir contraseña")
     private String confirmPassword;
-    @NotBlank
+    @NotBlank(message = "token obligatorio")
     private String tokenPassword;
 
     public ChangePasswordDTO() {
