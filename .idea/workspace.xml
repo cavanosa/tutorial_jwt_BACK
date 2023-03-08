@@ -6,18 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="cd456f95-70a6-4715-9187-1496d4844a21" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/controller/ProductoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/controller/ProductoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/dto/ProductoDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/dto/ProductoDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/emailpassword/controller/EmailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/emailpassword/controller/EmailController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/emailpassword/dto/ChangePasswordDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/emailpassword/dto/ChangePasswordDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/emailpassword/service/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/emailpassword/service/EmailService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/controller/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/dto/LoginUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/dto/LoginUsuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/dto/NuevoUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/dto/NuevoUsuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/jwt/JwtEntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/jwt/JwtEntryPoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/service/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/service/UserDetailsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/service/UsuarioService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/service/UsuarioService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/service/ProductoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/service/ProductoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/exceptions/RestControllerException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/exceptions/RestControllerException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorial/crud/security/controller/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorial/crud/security/controller/AuthController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorial/crud/security/service/UsuarioService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorial/crud/security/service/UsuarioService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorial/crud/service/ProductoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorial/crud/service/ProductoService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="deprecated2023" />
+        <entry key="$PROJECT_DIR$" value="exceptions" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -197,6 +190,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CrudApplication" />
         <item itemvalue="Application.CrudApplication" />
         <item itemvalue="Application.CrudApplication" />
         <item itemvalue="Application.CrudApplication" />

@@ -1,6 +1,10 @@
 package com.tutorial.crud.exceptions;
 
 import com.tutorial.crud.dto.Mensaje;
+import io.jsonwebtoken.JwtException;
+import io.jsonwebtoken.MalformedJwtException;
+import io.jsonwebtoken.UnsupportedJwtException;
+import io.jsonwebtoken.security.SignatureException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.AccessDeniedException;
@@ -46,5 +50,11 @@ public class RestControllerException {
         e.getBindingResult().getAllErrors().forEach(err -> mensajes.add(err.getDefaultMessage()));
         return ResponseEntity.status(HttpStatus.BAD_REQUEST)
                 .body(new Mensaje(mensajes.stream().collect(Collectors.joining(","))));
+    }
+
+    @ExceptionHandler(value = {MalformedJwtException.class, UnsupportedJwtException.class, IllegalArgumentException.class, SignatureException.class})
+    public ResponseEntity<Mensaje> jwtException(JwtException e){
+        return ResponseEntity.status(HttpStatus.FORBIDDEN)
+                .body(new Mensaje(e.getMessage()));
     }
 }
